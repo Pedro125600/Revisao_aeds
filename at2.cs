@@ -57,7 +57,11 @@
             int a = int.Parse(Console.ReadLine());
             Console.Write("Digite o segundo número: ");
             int b = int.Parse(Console.ReadLine());
-            Console.WriteLine("Maior número: " + Math.Max(a, b));
+            if(a > b)
+                 Console.WriteLine("Maior número: " + a);
+            else
+                 Console.WriteLine("Maior número: " + b);
+           
         }
 
         static void SomarNNumeros()
